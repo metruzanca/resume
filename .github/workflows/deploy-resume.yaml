@@ -4,8 +4,15 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Deploy to Gist
+      - uses: actions/checkout@v3      
+      - name: Update resume JSON
+        uses: exuanbo/actions-deploy-gist@v1.1.4
+        with:
+          token: ${{ secrets.TOKEN }}
+          gist_id: 751361e5ba58ad06f361ebd430ae6e10
+          file_path: resume.json
+          file_type: text
+      - name: Update resume PDF
         uses: exuanbo/actions-deploy-gist@v1.1.4
         with:
           token: ${{ secrets.TOKEN }}

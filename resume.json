@@ -27,6 +27,11 @@
         "network": "Linkedin",
         "username": "samuele-zanca",
         "url": "https://www.linkedin.com/in/samuele-zanca/"
+      },
+      {
+        "network": "Github",
+        "username": "metruzanca",
+        "url": "https://github.com/metruzanca"
       }
     ]
   },
