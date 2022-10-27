@@ -1,0 +1,4 @@
+node_modules
+public
+# I don't want the lock to show up in the gist and theres so few deps that its not an issue
+pnpm-lock.yaml

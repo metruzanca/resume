@@ -1,0 +1,15 @@
+{
+  "name": "resume",
+  "repository": {
+    "url": "https://gist.github.com/metruzanca/751361e5ba58ad06f361ebd430ae6e10"
+  },
+	"dependencies": {
+		"jsonresume-theme-actual": "^0.2.1",
+		"resume-cli": "^3.0.8"
+	},
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "pnpm exec resume serve -t actual",
+    "export": "pnpm exec resume export resume.pdf -t actual"
+  }
+}

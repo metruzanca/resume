@@ -1,0 +1,172 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00",
+    "theme": "actual"
+  },
+  "basics": {
+    "name": "Samuele Zanca",
+    "label": "Senior Software Engineer",
+    "email": "samuele@zanca.dev",
+    "phone": "(848) 466-6653",
+    "url": "https://zanca.dev",
+    "location": {
+      "city": "New York",
+      "countryCode": "US",
+      "region": "New York"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "metruzanca",
+        "url": "https://twitter.com/metruzanca"
+      },
+      {
+        "network": "Linkedin",
+        "username": "samuele-zanca",
+        "url": "https://www.linkedin.com/in/samuele-zanca/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Backspace",
+      "position": "Lead Software Engineer",
+      "location": "Full Remote, NYC",
+      "startDate": "2021-11",
+      "summary": "The Social Community Platform Prioritizing Creator and Fan Connections",
+      "highlights": [],
+      "url": "https://www.backspacethat.com/"
+    },
+    {
+      "name": "Brkfst.io",
+      "position": "Senior FullStack Engineer",
+      "location": "New York, US",
+      "startDate": "2021-08",
+      "summary": "Brkfst.io solves video ads at scale, syndicated across social platforms",
+      "highlights": [],
+      "url": "https://Brkfst.io"
+    },
+    {
+      "name": "Express-Scripts",
+      "position": "FullStack Engineer - Contractor",
+      "location": "New York, US",
+      "summary": "ESI is a [Signa](https://www.cigna.com/) company that handles drug subscriptions",
+      "startDate": "2021-04",
+      "endDate": "2021-08",
+      "highlights": [
+        "Maintained a React application used by an internal operations team.",
+        "Introduced Unit Testing, improving development workflow.",
+        "Spearheaded the development of the new React application using updated standards with focus on Testing, integrating with other teams developing APIs"
+      ],
+      "url": "https://www.express-scripts.com/"
+    },
+    {
+      "name": "DecHit",
+      "position": "FullStack Engineer - Contractor",
+      "location": "Milan, Italy",
+      "startDate": "2021-01",
+      "endDate": "2021-04",
+      "highlights": [
+        "Instructor for DecHit React Academy. Held a few crash courses. Performed Code Reviews. Getting them up to speed with Nodejs, React & Redux in 1 month",
+        "Lead a Team of 4 developers using the MERN stack to develop a microservice based application.",
+        "Implemented CI/CD Pipelines using Gitlab, Jenkins, Docker and Kubernetes.",
+        "Maintained and improved an Angular2+ application, reducing code complexity and duplication, resulting in faster development and easier integration with the Java Backend team",
+        "Maintained a Legacy React Cordova app while introducing best practices to facilitate a transition to React Native."
+      ],
+      "url": "https://www.dechit.it/"
+    },
+    {
+      "name": "Mia-Platform",
+      "position": "FullStack Engineer - Contractor",
+      "summary": "Software agency trying to bring their clients into using Cloud Native software",
+      "location": "Milan, Italy",
+      "startDate": "2020-07",
+      "endDate": "2020-10",
+      "highlights": [
+        "Worked on a cross-functional team, to develop APIs and web UI dashboards for a B2B client Foorban Srl.",
+        "Developed a microservice in Kotlin using the Ktor framework, Jackson and Retrofit2 following the BFF and Saga patterns.",
+        "Developed two React dashboards using data from the previously mentioned kotlin API and Mia's CMS.",
+        "Developed a PDF Microservice that allows the use of HTML as a familiar DSL for creating Shipping labels, receipts and custom size invoices.",
+        "Prototyped a React app for live previewing of the PDFs using the Monaco-Editor."
+      ],
+      "url": "https://mia-platform.eu/"
+    },
+    {
+      "name": "TXT e-Solutions",
+      "position": "Software Engineer",
+      "location": "Milan, Italy",
+      "summary": "TXT is a software agency in the field of Aerospace & Defence",
+      "endDate": "2020-07",
+      "startDate": "2019-09",
+      "highlights": [
+        "Acted as a point of reference/mentor for developers learning: Node, React, Redux & Typescript.",
+        "Reduced bugs by 15% by adopting Typescript and helping coworkers get up to speed.",
+        "Lead the development of a React/Typescript web control panel for operating Flight Simulators via remotely via tablet for Leonardo SpA",
+        "Maintained c# two Xamarin Mobile apps used by ITT Inc in Automotive industry for collecting diagnostic break data transfered over wifi and low power bluetooth",
+        "Developed a c# app for collecting and processing flight data to reduce fuel costs in collaboration with IATA.",
+        "Developed a c# WPF Simulator for training the proper use of the ADRIAN system."
+      ],
+      "url": "https://www.txtgroup.com/"
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Frontend",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Typescript",
+        "React",
+        "Nodejs",
+        "Svelte",
+        "React Native",
+        "Redux",
+        "Gatsby",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "name": "Backend",
+      "keywords": [
+        "C#",
+        "Nodejs",
+        "Java",
+        "Kotlin",
+        "C++",
+        "Express",
+        "NestJS",
+        "Nextjs",
+        "MongoDB",
+        "Firebase",
+        "Postgresql",
+        "SQL",
+        "REST",
+        "gRPC",
+        "Protobuf",
+        "Docker",
+        "Linux",
+        "Azure",
+        "GCP"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Italian",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": []
+}
